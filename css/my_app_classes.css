@@ -38,9 +38,57 @@ a i {
 
 button, html [type=button] {
     -webkit-appearance: button;
-    background-color: #fff;
+    background-color: #639c3d;
     border: 0 solid #fff;
     border-radius: 5px;
+    color: #fff;
     width: 150px;
+    padding: 6px 25px;
     margin-left: 25px;
 }
+
+.navbar-brand img {
+    width: 300px;
+}
+
+.navbar {
+    font-family: 'Sintony', sans-serif;
+    border-bottom: 4px solid #639c3d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #194189 !important; 
+    }
+
+.dropdown-menu {
+       
+        font-size: 1rem;
+       
+        background-color: #639c3d;
+        color: #fff !important;
+        border: 0px solid rgba(0,0,0,.15);
+        border-radius: 0 0 5px 5px;
+        }
+
+        .dropdown-item {
+            display: block;
+            width: 100%;
+            padding: .25rem 1.5rem;
+            clear: both;
+            font-weight: 400;
+            color: #fff;
+        }
+        .carousel-item {
+            height: 76vh;
+            min-height: 315px;
+            background: no-repeat scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            }
+            .carousel-control-next-icon, .carousel-control-prev-icon {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+            }
