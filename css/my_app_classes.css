@@ -1,3 +1,17 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h2 {
+    color: #194189;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+}
+
 .navbar {
     padding: 2rem 1rem;
 }
@@ -92,3 +106,28 @@ button, html [type=button] {
                 width: 40px;
                 height: 40px;
             }
+            .carousel-caption {
+                position: absolute;
+                right: 15%;
+                bottom: 20px;
+                left: 15%;
+                z-index: 10;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                color: #fff;
+                text-align: center;
+                background: rgba(99,156,61, 0.6);
+                }
+
+                hr {
+                    border-top: 1px solid #639c3d;
+                    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0; 
+                }
+                .bg-dark {
+                    background-color: #194189 !important;
+                    }
+                
