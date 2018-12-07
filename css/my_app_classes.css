@@ -1,9 +1,14 @@
 body {
-    font-family: 'PT Serif', serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1rem !important;
 }
 
 h1 {
     font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 {
+    color:#194189;
 }
 
 h2 {
@@ -43,10 +48,10 @@ a i {
 
 .logo {
     
-        text-align: center;
-        margin: 0px auto 41px;
-        width: 100%;
-        display: block;
+    text-align: center;
+    margin: 0px auto 41px;
+    width: 100%;
+    display: block;
     
 }
 
@@ -145,4 +150,18 @@ hr {
     background-color: #639C3D !important;
     font-family: 'Sintony', sans-serif;
     border: 0px solid white;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #194189;
+    color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-family: 'Sintony', sans-serif; 
+    font-size: 16px;
+}
+
+.breadcrumb {
+    background-color: transparent;
 }
